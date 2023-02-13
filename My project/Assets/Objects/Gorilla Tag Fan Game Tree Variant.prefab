@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 88726fd3ea07fbb46a8e4851766dd07f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88726fd3ea07fbb46a8e4851766dd07f, type: 3}
       propertyPath: m_LocalScale.x
@@ -67,15 +67,15 @@ PrefabInstance:
     - target: {fileID: -7577739868436781572, guid: 88726fd3ea07fbb46a8e4851766dd07f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1a0f723cdb7232d44a5a506383e42562, type: 2}
+      objectReference: {fileID: 2100000, guid: 2e3622f0a188c56428db91fc99426efc, type: 2}
     - target: {fileID: 919132149155446097, guid: 88726fd3ea07fbb46a8e4851766dd07f, type: 3}
       propertyPath: m_Name
-      value: Gorilla Tag Fan Game Tree
+      value: Gorilla Tag Fan Game Tree Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2348053109929956537, guid: 88726fd3ea07fbb46a8e4851766dd07f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eda950e949e3b8a4ea28f353312ff500, type: 2}
+      objectReference: {fileID: 2100000, guid: a320e878e29901e48af57ad52e79cca6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
