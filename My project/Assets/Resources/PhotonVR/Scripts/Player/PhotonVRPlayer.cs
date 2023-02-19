@@ -19,6 +19,7 @@ namespace Photon.VR.Player
         public Transform RightHand;
         [Tooltip("The objects that will get the colour of the player applied to them")]
         public List<MeshRenderer> ColourObjects;
+        public List<SkinnedMeshRenderer> SkinnedColourObjects;
 
         [Header("Cosmetics Parents")]
         public Transform HeadCosmetics;
@@ -82,15 +83,21 @@ namespace Photon.VR.Player
                 NameText.text = photonView.Owner.NickName;
 
             // Colour
+            foreach (SkinnedMeshRenderer renderer in SkinnedColourObjects)
+            {
+                if (renderer != null)
+                    renderer.material.color = JsonUtility.FromJson<Color>((string)photonView.Owner.CustomProperties["Colour"]);
+            }
             foreach (MeshRenderer renderer in ColourObjects)
             {
-                if(renderer != null)
+                if (renderer != null)
                     renderer.material.color = JsonUtility.FromJson<Color>((string)photonView.Owner.CustomProperties["Colour"]);
             }
 
+
             // Cosmetics - it's a little ugly to look at
             PhotonVRCosmeticsData cosmetics = JsonUtility.FromJson<PhotonVRCosmeticsData>((string)photonView.Owner.CustomProperties["Cosmetics"]);
-            if(HeadCosmetics != null)
+            if (HeadCosmetics != null)
                 foreach (Transform cos in HeadCosmetics)
                     if (cos.name != cosmetics.Head)
                         cos.gameObject.SetActive(false);

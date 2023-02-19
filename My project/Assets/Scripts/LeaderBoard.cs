@@ -6,15 +6,13 @@ using TMPro;
 using UnityEngine.Networking;
 using Photon.Realtime;
 
-// Made By JokerJosh#6230 With Help By fchb1239#5358
-
 public class LeaderBoard : MonoBehaviour
 {
     [SerializeField] public string[] usernames;
     [SerializeField] public TMP_Text displaySpot;
     [SerializeField] public string activereportperson;
 
-    
+
     private void Update()
     {
         usernames = new string[PhotonNetwork.PlayerList.Length];

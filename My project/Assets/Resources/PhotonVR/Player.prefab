@@ -26,8 +26,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228723478001943549}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.138}
+  m_LocalScale: {x: 1.3910148, y: 1.3910148, z: 1.3910148}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7815435375531854782}
@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.165}
+  m_AnchoredPosition: {x: -0.012202, y: 0.092001}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &8666263093632836160
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: -556129883976520123, guid: fba3b95e80179bc49aa1351211159b34, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -100,10 +100,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PlayerName
+  m_text: Chimp
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fba3b95e80179bc49aa1351211159b34, type: 2}
+  m_sharedMaterial: {fileID: -556129883976520123, guid: fba3b95e80179bc49aa1351211159b34, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -845,6 +845,8 @@ MonoBehaviour:
   - {fileID: 4731620001288139291}
   - {fileID: 0}
   - {fileID: 0}
+  SkinnedColourObjects:
+  - {fileID: 3271248744667382190}
   HeadCosmetics: {fileID: 182381451631106285}
   FaceCosmetics: {fileID: 38331861477394824}
   BodyCosmetics: {fileID: 7856659514856215809}
@@ -1687,6 +1689,11 @@ PrefabInstance:
 --- !u!4 &1537260382746589110 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5539643894609720198, guid: 2e711a94a050627428fb366118fed282, type: 3}
+  m_PrefabInstance: {fileID: 6464273956176888880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &3271248744667382190 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8417361359673230750, guid: 2e711a94a050627428fb366118fed282, type: 3}
   m_PrefabInstance: {fileID: 6464273956176888880}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &5443587335113207555 stripped

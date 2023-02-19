@@ -133,10 +133,7 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: 5281966641528117540, guid: 9a888c2d2ad6e9c45b73038dca5ea013, type: 2}
-  - {fileID: 11400000, guid: bb19980f409d67d4daa499adddc0e3f7, type: 2}
-  - {fileID: -2252716374046411807, guid: 6467d99cc3fe9a44da404ce4ce4104c3, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -248,12 +245,12 @@ PlayerSettings:
   useCustomBaseGradleTemplate: 0
   useCustomGradlePropertiesTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 3
+  AndroidTargetArchitectures: 1
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/User/Desktop/user.keystore
-  AndroidKeyaliasName: photon
+  AndroidKeystoreName: '{inproject}: user.keystore'
+  AndroidKeyaliasName: monkestuff34
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -748,7 +745,7 @@ PlayerSettings:
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
-    Android: 1
+    Android: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel: {}
